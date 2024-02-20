@@ -12,23 +12,31 @@ fetch("/js/testjs.json")
   );
 
 //mostra una domanda casuale
-
 let indiceDomandaCorrente;
 let risposteCorrette = 0;
-let risposteErrate = 0;
+let risposteErrate = 0; // Assicurati che questa sia definita
 let timer;
+let domandeMostrate = [];
 
 function mostraDomandaCasuale() {
   if (!timer) {
     avviaTimer();
   }
 
-  indiceDomandaCorrente = Math.floor(Math.random() * domande.length);
+  if (domandeMostrate.length === domande.length) {
+    alert("Tutte le domande sono state mostrate. Il gioco è finito!");
+    clearInterval(timer); // Opzionale: ferma il timer
+    return; // Qui puoi gestire cosa fare quando il gioco è finito
+  }
+
+  do {
+    indiceDomandaCorrente = Math.floor(Math.random() * domande.length);
+  } while (domandeMostrate.includes(indiceDomandaCorrente));
+
   const domanda = domande[indiceDomandaCorrente];
   document.querySelector(".card-title").textContent = `Domanda ${
     indiceDomandaCorrente + 1
   }`;
-
   document.querySelector(".card-text").textContent = domanda.domanda;
   impostaOpzioniDiRisposta(domanda);
 }
@@ -46,15 +54,22 @@ function impostaOpzioniDiRisposta(domanda) {
 
 function verificaRisposta(scelta) {
   const domanda = domande[indiceDomandaCorrente];
-  if (scelta === domanda.rispostaCorretta) {
+  // Usa trim() e toLowerCase() per standardizzare il confronto
+  if (
+    scelta.trim().toLowerCase() ===
+    domanda.rispostaCorretta.trim().toLowerCase()
+  ) {
     alert("La risposta è corretta!");
     risposteCorrette++;
   } else {
     alert("La risposta è errata!");
     risposteErrate++;
   }
+
+  domandeMostrate.push(indiceDomandaCorrente);
   aggiornaConteggi();
   aggiornaProgressBar();
+
   mostraDomandaCasuale();
 }
 
@@ -89,4 +104,20 @@ function formattaTempo(secondi) {
   const minuti = Math.floor((secondi % 3600) / 60);
   secondi = secondi % 60;
   return [ore, minuti, secondi].map((v) => (v < 10 ? "0" + v : v)).join(":");
+}
+
+document.getElementById("reset-button").addEventListener("click", resetQuiz);
+
+function resetQuiz() {
+  // Reset delle variabili di stato
+  domandeMostrate = [];
+  risposteCorrette = 0;
+  risposteErrate = 0;
+  clearInterval(timer); // Se hai un timer
+  timer = null;
+
+  // Aggiorna UI
+  aggiornaConteggi();
+  // Riavvia il quiz
+  mostraDomandaCasuale();
 }

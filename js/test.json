@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "domanda": "Qual è il vero scopo per cui è nato JavaScript?",
+    "opzioni": [
+      "A) Gestire i database",
+      "B) Creazione di animazioni 3D",
+      "C) Manipolare il DOM",
+      "D) Programmazione di giochi"
+    ],
+    "rispostaCorretta": "C) Manipolare il DOM"
+  }
+]

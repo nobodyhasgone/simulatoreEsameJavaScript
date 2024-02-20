@@ -1,606 +1,606 @@
 [
   {
     "id": 1,
-    "domanda": "Domanda 1: Qual è il vero scopo per cui è nato JavaScript?",
+    "domanda": "Qual è il vero scopo per cui è nato JavaScript?",
     "opzioni": [
       "A) Gestire i database",
       "B) Creazione di animazioni 3D",
       "C) Manipolare il DOM",
       "D) Programmazione di giochi"
     ],
-    "rispostaCorretta": "Manipolare il DOM"
+    "rispostaCorretta": "C) Manipolare il DOM"
   },
   {
     "id": 2,
-    "domanda": "Domanda 2: Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
+    "domanda": "Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
     "opzioni": [
       "A) Un array di elementi",
       "B) Un singolo elemento con ID 'prova'",
       "C) Tutti gli elementi di classe 'prova'",
       "D) Nessun elemento"
     ],
-    "rispostaCorretta": "Un singolo elemento con ID 'prova'"
+    "rispostaCorretta": "B) Un singolo elemento con ID 'prova'"
   },
   {
     "id": 3,
-    "domanda": "Domanda 3: Come si modifica l'HTML di un elemento in JavaScript?",
+    "domanda": "Come si modifica l'HTML di un elemento in JavaScript?",
     "opzioni": [
       "A) document.getElementByHTML('prova')",
       "B) document.modifyHTML('prova')",
       "C) document.getElementById('prova').innerHTML",
       "D) document.changeHTML('prova')"
     ],
-    "rispostaCorretta": "document.getElementById('prova').innerHTML"
+    "rispostaCorretta": "C) document.getElementById('prova').innerHTML"
   },
   {
     "id": 4,
-    "domanda": "Domanda 5: Cosa significa 'async' in una funzione JavaScript?",
+    "domanda": "Cosa significa 'async' in una funzione JavaScript?",
     "opzioni": [
       "A) La funzione viene eseguita in modo sincrono",
       "B) La funzione esegue operazioni di rete asincrone",
       "C) La funzione può essere messa in pausa e ripresa in seguito",
       "D) La funzione ritorna una promise"
     ],
-    "rispostaCorretta": "La funzione ritorna una promise"
+    "rispostaCorretta": "D) La funzione ritorna una promise"
   },
   {
     "id": 5,
-    "domanda": "Domanda 7: Qual è la differenza tra '=='' e '===' in JavaScript?",
+    "domanda": "Qual è la differenza tra '=='' e '===' in JavaScript?",
     "opzioni": [
       "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo",
       "B) Non c'è differenza tra i due operatori",
       "C) '==' è utilizzato per l'assegnazione, mentre '===' per il confronto",
       "D) '==' confronta sia il valore sia il tipo, mentre '===' confronta solo il valore"
     ],
-    "rispostaCorretta": "'==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
+    "rispostaCorretta": "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
   },
   {
     "id": 6,
-    "domanda": "Domanda 8: Cosa fa il metodo 'forEach' in JavaScript?",
+    "domanda": "Cosa fa il metodo 'forEach' in JavaScript?",
     "opzioni": [
       "A) Esegue una funzione una volta per ogni elemento dell'array",
       "B) Cerca un elemento all'interno di un array",
       "C) Ritorna il primo elemento di un array che soddisfa una condizione",
       "D) Crea un nuovo array con gli elementi che soddisfano una condizione"
     ],
-    "rispostaCorretta": "Esegue una funzione una volta per ogni elemento dell'array"
+    "rispostaCorretta": "A) Esegue una funzione una volta per ogni elemento dell'array"
   },
   {
     "id": 7,
-    "domanda": "Domanda 10: In JavaScript, cosa sono le Arrow Functions?",
+    "domanda": "In JavaScript, cosa sono le Arrow Functions?",
     "opzioni": [
       "A) Una versione più breve di scrivere funzioni anonime",
       "B) Una funzione che può essere usata solo con array",
       "C) Un modo per creare funzioni asincrone",
       "D) Un tipo speciale di funzione che utilizza il this del contesto padre"
     ],
-    "rispostaCorretta": "Una versione più breve di scrivere funzioni anonime"
+    "rispostaCorretta": "A) Una versione più breve di scrivere funzioni anonime"
   },
   {
     "id": 8,
-    "domanda": "Domanda 4: Come si cambia il valore di un attributo di un elemento in JavaScript?",
+    "domanda": "Come si cambia il valore di un attributo di un elemento in JavaScript?",
     "opzioni": [
       "A) document.setAttribute('prova', valore)",
       "B) document.getElement('prova').changeAttribute(valore)",
       "C) document.getElementById('prova').attributo = valore",
       "D) document.getElementById('prova').setAttribute(attributo, valore)"
     ],
-    "rispostaCorretta": "document.getElementById('prova').setAttribute(attributo, valore)"
+    "rispostaCorretta": "D) document.getElementById('prova').setAttribute(attributo, valore)"
   },
   {
     "id": 9,
-    "domanda": "Domanda 5: Quale libreria JavaScript è popolare per la manipolazione del DOM?",
+    "domanda": "Quale libreria JavaScript è popolare per la manipolazione del DOM?",
     "opzioni": ["A) AngularJS", "B) React", "C) jQuery", "D) Vue.js"],
-    "rispostaCorretta": "jQuery"
+    "rispostaCorretta": "C) jQuery"
   },
   {
     "id": 10,
-    "domanda": "Domanda 6: Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
+    "domanda": "Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
     "opzioni": [
       "A) jQuery('.classe').funzione(parametri)",
       "B) $('.classe').funzione({parametri})",
       "C) jQuery.select('.classe').apply(funzione)",
       "D) select('.classe').withjQuery(funzione)"
     ],
-    "rispostaCorretta": "$('.classe').funzione({parametri})"
+    "rispostaCorretta": "B) $('.classe').funzione({parametri})"
   },
   {
     "id": 11,
-    "domanda": "Domanda 7: Come si gestiscono gli eventi in JavaScript?",
+    "domanda": "Come si gestiscono gli eventi in JavaScript?",
     "opzioni": [
       "A) Usando l'attributo 'event'",
       "B) Con l'oggetto EventListener",
       "C) Attraverso la funzione handleEvent()",
       "D) Con addEventListener() o specificando l'evento nell'HTML"
     ],
-    "rispostaCorretta": "Con addEventListener() o specificando l'evento nell'HTML"
+    "rispostaCorretta": "D) Con addEventListener() o specificando l'evento nell'HTML"
   },
   {
     "id": 12,
-    "domanda": "Domanda 8: Cosa fa la funzione 'fetch' in JavaScript?",
+    "domanda": "Cosa fa la funzione 'fetch' in JavaScript?",
     "opzioni": [
       "A) Carica dati da un file locale",
       "B) Effettua richieste HTTP e ottiene promesse con i risultati",
       "C) Aggiorna il contenuto di un elemento DOM",
       "D) Cerca elementi nel DOM"
     ],
-    "rispostaCorretta": "Effettua richieste HTTP e ottiene promesse con i risultati"
+    "rispostaCorretta": "B) Effettua richieste HTTP e ottiene promesse con i risultati"
   },
   {
     "id": 13,
-    "domanda": "Domanda 9: In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
+    "domanda": "In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
     "opzioni": [
       "A) sync e wait",
       "B) promise e result",
       "C) async e await",
       "D) then e catch"
     ],
-    "rispostaCorretta": "async e await"
+    "rispostaCorretta": "C) async e await"
   },
   {
     "id": 14,
-    "domanda": "Domanda 10: Cosa rappresenta il BOM in JavaScript?",
+    "domanda": "Cosa rappresenta il BOM in JavaScript?",
     "opzioni": [
       "A) Browser Object Model",
       "B) Basic Object Management",
       "C) Binary Operation Mode",
       "D) Background Operation Module"
     ],
-    "rispostaCorretta": "Browser Object Model"
+    "rispostaCorretta": "A) Browser Object Model"
   },
   {
     "id": 15,
-    "domanda": "Domanda 11: Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
+    "domanda": "Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
     "opzioni": [
       "A) Solo editor di testo specializzati",
       "B) Qualsiasi editor di testo, come Visual Studio Code o browser",
       "C) Solamente IDE specializzati",
       "D) Esclusivamente piattaforme online come JSFiddle"
     ],
-    "rispostaCorretta": "Qualsiasi editor di testo, come Visual Studio Code o browser"
+    "rispostaCorretta": "B) Qualsiasi editor di testo, come Visual Studio Code o browser"
   },
   {
     "id": 16,
-    "domanda": "Domanda 12: Quale istruzione JavaScript crea un messaggio di avviso?",
+    "domanda": "Quale istruzione JavaScript crea un messaggio di avviso?",
     "opzioni": [
       "A) console.log('Messaggio')",
       "B) alert('Messaggio')",
       "C) message('Messaggio')",
       "D) warn('Messaggio')"
     ],
-    "rispostaCorretta": "alert('Messaggio')"
+    "rispostaCorretta": "B) alert('Messaggio')"
   },
   {
     "id": 17,
-    "domanda": "Domanda 1: Qual è il vero scopo per cui è nato JavaScript?",
+    "domanda": "Qual è il vero scopo per cui è nato JavaScript?",
     "opzioni": [
       "A) Gestire i database",
       "B) Creazione di animazioni 3D",
       "C) Manipolare il DOM",
       "D) Programmazione di giochi"
     ],
-    "rispostaCorretta": "Manipolare il DOM"
+    "rispostaCorretta": "C) Manipolare il DOM"
   },
   {
     "id": 18,
-    "domanda": "Domanda 2: Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
+    "domanda": "Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
     "opzioni": [
       "A) Un array di elementi",
       "B) Un singolo elemento con ID 'prova'",
       "C) Tutti gli elementi di classe 'prova'",
       "D) Nessun elemento"
     ],
-    "rispostaCorretta": "Un singolo elemento con ID 'prova'"
+    "rispostaCorretta": "B) Un singolo elemento con ID 'prova'"
   },
   {
     "id": 19,
-    "domanda": "Domanda 3: Come si modifica l'HTML di un elemento in JavaScript?",
+    "domanda": "Come si modifica l'HTML di un elemento in JavaScript?",
     "opzioni": [
       "A) document.getElementByHTML('prova')",
       "B) document.modifyHTML('prova')",
       "C) document.getElementById('prova').innerHTML",
       "D) document.changeHTML('prova')"
     ],
-    "rispostaCorretta": "document.getElementById('prova').innerHTML"
+    "rispostaCorretta": "C) document.getElementById('prova').innerHTML"
   },
   {
     "id": 20,
-    "domanda": "Domanda 5: Cosa significa 'async' in una funzione JavaScript?",
+    "domanda": "Cosa significa 'async' in una funzione JavaScript?",
     "opzioni": [
       "A) La funzione viene eseguita in modo sincrono",
       "B) La funzione esegue operazioni di rete asincrone",
       "C) La funzione può essere messa in pausa e ripresa in seguito",
       "D) La funzione ritorna una promise"
     ],
-    "rispostaCorretta": "La funzione ritorna una promise"
+    "rispostaCorretta": "D) La funzione ritorna una promise"
   },
   {
     "id": 21,
-    "domanda": "Domanda 7: Qual è la differenza tra '=='' e '===' in JavaScript?",
+    "domanda": "Qual è la differenza tra '=='' e '===' in JavaScript?",
     "opzioni": [
       "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo",
       "B) Non c'è differenza tra i due operatori",
       "C) '==' è utilizzato per l'assegnazione, mentre '===' per il confronto",
       "D) '==' confronta sia il valore sia il tipo, mentre '===' confronta solo il valore"
     ],
-    "rispostaCorretta": "'==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
+    "rispostaCorretta": "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
   },
   {
     "id": 22,
-    "domanda": "Domanda 8: Cosa fa il metodo 'forEach' in JavaScript?",
+    "domanda": "Cosa fa il metodo 'forEach' in JavaScript?",
     "opzioni": [
       "A) Esegue una funzione una volta per ogni elemento dell'array",
       "B) Cerca un elemento all'interno di un array",
       "C) Ritorna il primo elemento di un array che soddisfa una condizione",
       "D) Crea un nuovo array con gli elementi che soddisfano una condizione"
     ],
-    "rispostaCorretta": "Esegue una funzione una volta per ogni elemento dell'array"
+    "rispostaCorretta": "A) Esegue una funzione una volta per ogni elemento dell'array"
   },
   {
     "id": 23,
-    "domanda": "Domanda 10: In JavaScript, cosa sono le Arrow Functions?",
+    "domanda": "In JavaScript, cosa sono le Arrow Functions?",
     "opzioni": [
       "A) Una versione più breve di scrivere funzioni anonime",
       "B) Una funzione che può essere usata solo con array",
       "C) Un modo per creare funzioni asincrone",
       "D) Un tipo speciale di funzione che utilizza il this del contesto padre"
     ],
-    "rispostaCorretta": "Una versione più breve di scrivere funzioni anonime"
+    "rispostaCorretta": "A) Una versione più breve di scrivere funzioni anonime"
   },
   {
     "id": 24,
-    "domanda": "Domanda 4: Come si cambia il valore di un attributo di un elemento in JavaScript?",
+    "domanda": "Come si cambia il valore di un attributo di un elemento in JavaScript?",
     "opzioni": [
       "A) document.setAttribute('prova', valore)",
       "B) document.getElement('prova').changeAttribute(valore)",
       "C) document.getElementById('prova').attributo = valore",
       "D) document.getElementById('prova').setAttribute(attributo, valore)"
     ],
-    "rispostaCorretta": "document.getElementById('prova').setAttribute(attributo, valore)"
+    "rispostaCorretta": "D) document.getElementById('prova').setAttribute(attributo, valore)"
   },
   {
     "id": 25,
-    "domanda": "Domanda 5: Quale libreria JavaScript è popolare per la manipolazione del DOM?",
+    "domanda": "Quale libreria JavaScript è popolare per la manipolazione del DOM?",
     "opzioni": ["A) AngularJS", "B) React", "C) jQuery", "D) Vue.js"],
-    "rispostaCorretta": "jQuery"
+    "rispostaCorretta": "C) jQuery"
   },
   {
     "id": 26,
-    "domanda": "Domanda 6: Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
+    "domanda": "Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
     "opzioni": [
       "A) jQuery('.classe').funzione(parametri)",
       "B) $('.classe').funzione({parametri})",
       "C) jQuery.select('.classe').apply(funzione)",
       "D) select('.classe').withjQuery(funzione)"
     ],
-    "rispostaCorretta": "$('.classe').funzione({parametri})"
+    "rispostaCorretta": "B) $('.classe').funzione({parametri})"
   },
   {
     "id": 27,
-    "domanda": "Domanda 7: Come si gestiscono gli eventi in JavaScript?",
+    "domanda": "Come si gestiscono gli eventi in JavaScript?",
     "opzioni": [
       "A) Usando l'attributo 'event'",
       "B) Con l'oggetto EventListener",
       "C) Attraverso la funzione handleEvent()",
       "D) Con addEventListener() o specificando l'evento nell'HTML"
     ],
-    "rispostaCorretta": "Con addEventListener() o specificando l'evento nell'HTML"
+    "rispostaCorretta": "D) Con addEventListener() o specificando l'evento nell'HTML"
   },
   {
     "id": 28,
-    "domanda": "Domanda 8: Cosa fa la funzione 'fetch' in JavaScript?",
+    "domanda": "Cosa fa la funzione 'fetch' in JavaScript?",
     "opzioni": [
       "A) Carica dati da un file locale",
       "B) Effettua richieste HTTP e ottiene promesse con i risultati",
       "C) Aggiorna il contenuto di un elemento DOM",
       "D) Cerca elementi nel DOM"
     ],
-    "rispostaCorretta": "Effettua richieste HTTP e ottiene promesse con i risultati"
+    "rispostaCorretta": "B) Effettua richieste HTTP e ottiene promesse con i risultati"
   },
   {
     "id": 29,
-    "domanda": "Domanda 9: In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
+    "domanda": "In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
     "opzioni": [
       "A) sync e wait",
       "B) promise e result",
       "C) async e await",
       "D) then e catch"
     ],
-    "rispostaCorretta": "async e await"
+    "rispostaCorretta": "C) async e await"
   },
   {
     "id": 30,
-    "domanda": "Domanda 10: Cosa rappresenta il BOM in JavaScript?",
+    "domanda": "Cosa rappresenta il BOM in JavaScript?",
     "opzioni": [
       "A) Browser Object Model",
       "B) Basic Object Management",
       "C) Binary Operation Mode",
       "D) Background Operation Module"
     ],
-    "rispostaCorretta": "Browser Object Model"
+    "rispostaCorretta": "A) Browser Object Model"
   },
   {
     "id": 31,
-    "domanda": "Domanda 11: Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
+    "domanda": "Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
     "opzioni": [
       "A) Solo editor di testo specializzati",
       "B) Qualsiasi editor di testo, come Visual Studio Code o browser",
       "C) Solamente IDE specializzati",
       "D) Esclusivamente piattaforme online come JSFiddle"
     ],
-    "rispostaCorretta": "Qualsiasi editor di testo, come Visual Studio Code o browser"
+    "rispostaCorretta": "B) Qualsiasi editor di testo, come Visual Studio Code o browser"
   },
   {
     "id": 32,
-    "domanda": "Domanda 12: Quale istruzione JavaScript crea un messaggio di avviso?",
+    "domanda": "Quale istruzione JavaScript crea un messaggio di avviso?",
     "opzioni": [
       "A) console.log('Messaggio')",
       "B) alert('Messaggio')",
       "C) message('Messaggio')",
       "D) warn('Messaggio')"
     ],
-    "rispostaCorretta": "alert('Messaggio')"
+    "rispostaCorretta": "B) alert('Messaggio')"
   },
   {
     "id": 33,
-    "domanda": "Domanda 1: Qual è il vero scopo per cui è nato JavaScript?",
+    "domanda": "Qual è il vero scopo per cui è nato JavaScript?",
     "opzioni": [
       "A) Gestire i database",
       "B) Creazione di animazioni 3D",
       "C) Manipolare il DOM",
       "D) Programmazione di giochi"
     ],
-    "rispostaCorretta": "Manipolare il DOM"
+    "rispostaCorretta": "C) Manipolare il DOM"
   },
   {
     "id": 34,
-    "domanda": "Domanda 2: Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
+    "domanda": "Che cosa ritorna 'document.getElementById('prova')' in JavaScript?",
     "opzioni": [
       "A) Un array di elementi",
       "B) Un singolo elemento con ID 'prova'",
       "C) Tutti gli elementi di classe 'prova'",
       "D) Nessun elemento"
     ],
-    "rispostaCorretta": "Un singolo elemento con ID 'prova'"
+    "rispostaCorretta": "B) Un singolo elemento con ID 'prova'"
   },
   {
     "id": 35,
-    "domanda": "Domanda 3: Come si modifica l'HTML di un elemento in JavaScript?",
+    "domanda": "Come si modifica l'HTML di un elemento in JavaScript?",
     "opzioni": [
       "A) document.getElementByHTML('prova')",
       "B) document.modifyHTML('prova')",
       "C) document.getElementById('prova').innerHTML",
       "D) document.changeHTML('prova')"
     ],
-    "rispostaCorretta": "document.getElementById('prova').innerHTML"
+    "rispostaCorretta": "C) document.getElementById('prova').innerHTML"
   },
   {
     "id": 36,
-    "domanda": "Domanda 5: Cosa significa 'async' in una funzione JavaScript?",
+    "domanda": "Cosa significa 'async' in una funzione JavaScript?",
     "opzioni": [
       "A) La funzione viene eseguita in modo sincrono",
       "B) La funzione esegue operazioni di rete asincrone",
       "C) La funzione può essere messa in pausa e ripresa in seguito",
       "D) La funzione ritorna una promise"
     ],
-    "rispostaCorretta": "La funzione ritorna una promise"
+    "rispostaCorretta": "D) La funzione ritorna una promise"
   },
   {
     "id": 37,
-    "domanda": "Domanda 7: Qual è la differenza tra '=='' e '===' in JavaScript?",
+    "domanda": "Qual è la differenza tra '=='' e '===' in JavaScript?",
     "opzioni": [
       "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo",
       "B) Non c'è differenza tra i due operatori",
       "C) '==' è utilizzato per l'assegnazione, mentre '===' per il confronto",
       "D) '==' confronta sia il valore sia il tipo, mentre '===' confronta solo il valore"
     ],
-    "rispostaCorretta": "'==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
+    "rispostaCorretta": "A) '==' confronta solo il valore, mentre '===' confronta sia il valore sia il tipo"
   },
   {
     "id": 38,
-    "domanda": "Domanda 8: Cosa fa il metodo 'forEach' in JavaScript?",
+    "domanda": "Cosa fa il metodo 'forEach' in JavaScript?",
     "opzioni": [
       "A) Esegue una funzione una volta per ogni elemento dell'array",
       "B) Cerca un elemento all'interno di un array",
       "C) Ritorna il primo elemento di un array che soddisfa una condizione",
       "D) Crea un nuovo array con gli elementi che soddisfano una condizione"
     ],
-    "rispostaCorretta": "Esegue una funzione una volta per ogni elemento dell'array"
+    "rispostaCorretta": "A) Esegue una funzione una volta per ogni elemento dell'array"
   },
   {
     "id": 39,
-    "domanda": "Domanda 10: In JavaScript, cosa sono le Arrow Functions?",
+    "domanda": "In JavaScript, cosa sono le Arrow Functions?",
     "opzioni": [
       "A) Una versione più breve di scrivere funzioni anonime",
       "B) Una funzione che può essere usata solo con array",
       "C) Un modo per creare funzioni asincrone",
       "D) Un tipo speciale di funzione che utilizza il this del contesto padre"
     ],
-    "rispostaCorretta": "Una versione più breve di scrivere funzioni anonime"
+    "rispostaCorretta": "A) Una versione più breve di scrivere funzioni anonime"
   },
   {
     "id": 40,
-    "domanda": "Domanda 4: Come si cambia il valore di un attributo di un elemento in JavaScript?",
+    "domanda": "Come si cambia il valore di un attributo di un elemento in JavaScript?",
     "opzioni": [
       "A) document.setAttribute('prova', valore)",
       "B) document.getElement('prova').changeAttribute(valore)",
       "C) document.getElementById('prova').attributo = valore",
       "D) document.getElementById('prova').setAttribute(attributo, valore)"
     ],
-    "rispostaCorretta": "document.getElementById('prova').setAttribute(attributo, valore)"
+    "rispostaCorretta": "D) document.getElementById('prova').setAttribute(attributo, valore)"
   },
   {
     "id": 41,
-    "domanda": "Domanda 5: Quale libreria JavaScript è popolare per la manipolazione del DOM?",
+    "domanda": "Quale libreria JavaScript è popolare per la manipolazione del DOM?",
     "opzioni": ["A) AngularJS", "B) React", "C) jQuery", "D) Vue.js"],
-    "rispostaCorretta": "jQuery"
+    "rispostaCorretta": "C) jQuery"
   },
   {
     "id": 42,
-    "domanda": "Domanda 6: Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
+    "domanda": "Qual è la sintassi generale per usare jQuery per selezionare elementi e applicare una funzione?",
     "opzioni": [
       "A) jQuery('.classe').funzione(parametri)",
       "B) $('.classe').funzione({parametri})",
       "C) jQuery.select('.classe').apply(funzione)",
       "D) select('.classe').withjQuery(funzione)"
     ],
-    "rispostaCorretta": "$('.classe').funzione({parametri})"
+    "rispostaCorretta": "B) $('.classe').funzione({parametri})"
   },
   {
     "id": 43,
-    "domanda": "Domanda 7: Come si gestiscono gli eventi in JavaScript?",
+    "domanda": "Come si gestiscono gli eventi in JavaScript?",
     "opzioni": [
       "A) Usando l'attributo 'event'",
       "B) Con l'oggetto EventListener",
       "C) Attraverso la funzione handleEvent()",
       "D) Con addEventListener() o specificando l'evento nell'HTML"
     ],
-    "rispostaCorretta": "Con addEventListener() o specificando l'evento nell'HTML"
+    "rispostaCorretta": "D) Con addEventListener() o specificando l'evento nell'HTML"
   },
   {
     "id": 44,
-    "domanda": "Domanda 8: Cosa fa la funzione 'fetch' in JavaScript?",
+    "domanda": "Cosa fa la funzione 'fetch' in JavaScript?",
     "opzioni": [
       "A) Carica dati da un file locale",
       "B) Effettua richieste HTTP e ottiene promesse con i risultati",
       "C) Aggiorna il contenuto di un elemento DOM",
       "D) Cerca elementi nel DOM"
     ],
-    "rispostaCorretta": "Effettua richieste HTTP e ottiene promesse con i risultati"
+    "rispostaCorretta": "B) Effettua richieste HTTP e ottiene promesse con i risultati"
   },
   {
     "id": 45,
-    "domanda": "Domanda 9: In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
+    "domanda": "In JavaScript, quali parole chiave vengono utilizzate per semplificare la scrittura delle promise?",
     "opzioni": [
       "A) sync e wait",
       "B) promise e result",
       "C) async e await",
       "D) then e catch"
     ],
-    "rispostaCorretta": "async e await"
+    "rispostaCorretta": "C) async e await"
   },
   {
     "id": 46,
-    "domanda": "Domanda 10: Cosa rappresenta il BOM in JavaScript?",
+    "domanda": "Cosa rappresenta il BOM in JavaScript?",
     "opzioni": [
       "A) Browser Object Model",
       "B) Basic Object Management",
       "C) Binary Operation Mode",
       "D) Background Operation Module"
     ],
-    "rispostaCorretta": "Browser Object Model"
+    "rispostaCorretta": "A) Browser Object Model"
   },
   {
     "id": 47,
-    "domanda": "Domanda 11: Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
+    "domanda": "Quali strumenti possono essere utilizzati per la stesura di codice JavaScript?",
     "opzioni": [
       "A) Solo editor di testo specializzati",
       "B) Qualsiasi editor di testo, come Visual Studio Code o browser",
       "C) Solamente IDE specializzati",
       "D) Esclusivamente piattaforme online come JSFiddle"
     ],
-    "rispostaCorretta": "Qualsiasi editor di testo, come Visual Studio Code o browser"
+    "rispostaCorretta": "B) Qualsiasi editor di testo, come Visual Studio Code o browser"
   },
   {
     "id": 48,
-    "domanda": "Domanda 12: Quale istruzione JavaScript crea un messaggio di avviso?",
+    "domanda": "Quale istruzione JavaScript crea un messaggio di avviso?",
     "opzioni": [
       "A) console.log('Messaggio')",
       "B) alert('Messaggio')",
       "C) message('Messaggio')",
       "D) warn('Messaggio')"
     ],
-    "rispostaCorretta": "alert('Messaggio')"
+    "rispostaCorretta": "B) alert('Messaggio')"
   },
   {
     "id": 49,
-    "domanda": "Domanda 21: In JavaScript, quale metodo viene utilizzato per aggiungere un elemento alla fine di un array?",
+    "domanda": "In JavaScript, quale metodo viene utilizzato per aggiungere un elemento alla fine di un array?",
     "opzioni": ["A) push()", "B) pop()", "C) shift()", "D) unshift()"],
-    "rispostaCorretta": "push()"
+    "rispostaCorretta": "A) push()"
   },
   {
     "id": 50,
-    "domanda": "Domanda 22: Qual è il risultato di 'typeof []' in JavaScript?",
+    "domanda": "Qual è il risultato di 'typeof []' in JavaScript?",
     "opzioni": ["A) 'array'", "B) 'object'", "C) 'undefined'", "D) 'string'"],
-    "rispostaCorretta": "'object'"
+    "rispostaCorretta": "B) 'object'"
   },
   {
     "id": 51,
-    "domanda": "Domanda 23: Come si dichiara una variabile costante in JavaScript?",
+    "domanda": "Come si dichiara una variabile costante in JavaScript?",
     "opzioni": [
       "A) let constName = value",
       "B) var constName = value",
       "C) const constName = value",
       "D) constant constName = value"
     ],
-    "rispostaCorretta": "const constName = value"
+    "rispostaCorretta": "C) const constName = value"
   },
   {
     "id": 52,
-    "domanda": "Domanda 24: Quale di questi non è un tipo di dato primitivo in JavaScript?",
+    "domanda": "Quale di questi non è un tipo di dato primitivo in JavaScript?",
     "opzioni": ["A) String", "B) Number", "C) Boolean", "D) Array"],
-    "rispostaCorretta": "Array"
+    "rispostaCorretta": "D) Array"
   },
   {
     "id": 53,
-    "domanda": "Domanda 25: Come si definisce una funzione freccia in JavaScript?",
+    "domanda": "Come si definisce una funzione freccia in JavaScript?",
     "opzioni": [
       "A) function() => {}",
       "B) () => {}",
       "C) => function() {}",
       "D) () => function() {}"
     ],
-    "rispostaCorretta": "() => {}"
+    "rispostaCorretta": "B) () => {}"
   },
   {
     "id": 54,
-    "domanda": "Domanda 26: In JavaScript, quale operatore viene utilizzato per la comparazione stretta (tipo e valore)?",
+    "domanda": "In JavaScript, quale operatore viene utilizzato per la comparazione stretta (tipo e valore)?",
     "opzioni": ["A) ==", "B) ===", "C) =", "D) !="],
-    "rispostaCorretta": "==="
+    "rispostaCorretta": "B) ==="
   },
   {
     "id": 55,
-    "domanda": "Domanda 27: Qual è lo scopo del metodo 'forEach' in JavaScript?",
+    "domanda": "Qual è lo scopo del metodo 'forEach' in JavaScript?",
     "opzioni": [
       "A) Iterare su ogni elemento di un array",
       "B) Filtrare elementi in un array",
       "C) Mappare elementi di un array a un'altra forma",
       "D) Ordinare gli elementi di un array"
     ],
-    "rispostaCorretta": "Iterare su ogni elemento di un array"
+    "rispostaCorretta": "A) Iterare su ogni elemento di un array"
   },
   {
     "id": 56,
-    "domanda": "Domanda 28: Come si possono convertire gli oggetti JavaScript in stringhe JSON?",
+    "domanda": "Come si possono convertire gli oggetti JavaScript in stringhe JSON?",
     "opzioni": [
       "A) JSON.stringify(obj)",
       "B) JSON.parse(obj)",
       "C) JSON.toObject(obj)",
       "D) JSON.toString(obj)"
     ],
-    "rispostaCorretta": "JSON.stringify(obj)"
+    "rispostaCorretta": "A) JSON.stringify(obj)"
   },
   {
     "id": 57,
-    "domanda": "Domanda 29: In JavaScript, cosa restituisce la parola chiave 'this' in una funzione normale?",
+    "domanda": "In JavaScript, cosa restituisce la parola chiave 'this' in una funzione normale?",
     "opzioni": [
       "A) L'oggetto globale",
       "B) L'oggetto a cui la funzione appartiene",
       "C) Il contesto della funzione",
       "D) Null"
     ],
-    "rispostaCorretta": "L'oggetto globale"
+    "rispostaCorretta": "A) L'oggetto globale"
   },
   {
     "id": 58,
-    "domanda": "Domanda 30: Come si definisce un oggetto in JavaScript?",
+    "domanda": "Come si definisce un oggetto in JavaScript?",
     "opzioni": [
       "A) var obj = {}",
       "B) var obj = []",
       "C) var obj = ()",
       "D) var obj = //"
     ],
-    "rispostaCorretta": "var obj = {}"
+    "rispostaCorretta": "A) var obj = {}"
   },
   {
     "id": 59,
