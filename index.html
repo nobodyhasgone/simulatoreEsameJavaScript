@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulatore Esame</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Colonna della Card -->
+        <div class="custom-gap mb-2 col-12 col-sm-12 col-md-8">
+          <div class="card custom-card">
+            <div class="card-body">
+              <h5 class="card-title">Domanda 1</h5>
+              <p class="card-text">Qui va la tua domanda...</p>
+              <div class="d-grid gap-2">
+                <button
+                  class="btn btn-primary mb-2"
+                  type="button"
+                  id="opzione1"
+                >
+                  Opzione 1
+                </button>
+                <button
+                  class="btn btn-primary mb-2"
+                  type="button"
+                  id="opzione2"
+                >
+                  Opzione 2
+                </button>
+                <button
+                  class="btn btn-primary mb-2"
+                  type="button"
+                  id="opzione3"
+                >
+                  Opzione 3
+                </button>
+                <button
+                  class="btn btn-primary mb-2"
+                  type="button"
+                  id="opzione4"
+                >
+                  Opzione 4
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colonna dei Progressi -->
+        <div class="custom-gap col-12 col-sm-12 col-md-4">
+          <div class="progress-info">
+            <h5>Progressi della Simulazione</h5>
+            <p>Totale Domande: <span id="total-questions">0</span></p>
+            <p>Corrette: <span id="correct-answers">0</span></p>
+            <p>Errate: <span id="wrong-answers">0</span></p>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 0%"
+                id="progress-bar"
+              ></div>
+            </div>
+            <p>Tempo: <span id="timer">00:00:00</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+html,
+body {
+  display: flex; /* Usa Flexbox per il body */
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  margin: 0; /* Rimuovi margini di default */
+  padding: 0; /* Rimuovi padding di default */
+  height: 100%;
+}
+body {
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Sostituisci con i tuoi colori */
+}
+
+.custom-card {
+  width: 50%; /* Imposta la larghezza desiderata per la tua card */
+  /* Aggiungi qui ulteriori stili personalizzati per la card, se necessario */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Aggiunge un'ombreggiatura */
+  transition: 0.3s; /* Effetto di transizione per un aspetto più fluido */
+}
+
+.custom-container {
+  width: 100%; /* Permette al contenitore di occupare la larghezza massima */
+  max-width: 600px; /* Imposta una larghezza massima per la card */
+}
+
+/* Stili base (mobile-first approach) */
+
+.progress-info {
+  margin-left: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  background-color: #4caf50; /* Colore della barra di progressione */
+}
+.custom-gap {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.custom-card .btn {
+  width: 100%; /* I bottoni occupano tutta la larghezza su dispositivi più piccoli */
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+/* Media query per tablet (es: oltre i 768px) */
+@media (min-width: 768px) {
+  .custom-card .btn {
+    width: 75%; /* I bottoni occupano il 75% della larghezza su dispositivi di medie dimensioni */
+  }
+}
+
+/* Media query per desktop (es: oltre i 992px) */
+@media (min-width: 992px) {
+  .custom-card .btn {
+    width: 60%; /* I bottoni occupano il 50% della larghezza su dispositivi più grandi */
+  }
+}
